@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balloon Pop Surprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="overlay" class="hidden">
+        <div id="start-screen">
+            <h2 id="message">Balloon Pop Surprise</h2>
+            <button id="startBtn">Start Game</button>
+        </div>
+    </div>
+    <div id="container">
+        <h1>Balloon Pop Surprise</h1>
+        <div id="scoreboard">
+            Score: <span id="score">0</span>
+            &nbsp;|&nbsp;
+            High Score: <span id="highScore">0</span>
+        </div>
+        <canvas id="gameCanvas" width="600" height="400"></canvas>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
